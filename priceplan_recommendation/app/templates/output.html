@@ -1,0 +1,47 @@
+{% extends 'layout.html' %}
+
+{% block title %}Plan Recommendations{% endblock %}
+
+{% block content %}
+<h2>Top 3 Recommended Plans</h2>
+    <div class="mb-3">
+        <strong>Phone Number:</strong> {{ phone_number }} | <strong>Total Minutes:</strong> {{ total_mins }} | <strong>Total Charges:</strong> {{ total_charge}}
+    </div>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Plan ID</th>
+            <th>Description</th>
+            <th>Monthly Cost</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for plan in recommended_plans %}
+        <tr>
+            <td>{{ plan.PlanID }}</td>
+            <td>{{ plan.PlanDescription }}</td>
+            <td>{{ plan.MonthlyCost }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+<h2>Other Available Plans</h2>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Plan ID</th>
+            <th>Description</th>
+            <th>Monthly Cost</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for plan in other_plans %}
+        <tr>
+            <td>{{ plan.PlanID }}</td>
+            <td>{{ plan.PlanDescription }}</td>
+            <td>{{ plan.MonthlyCost }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

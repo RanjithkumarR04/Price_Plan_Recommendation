@@ -1,0 +1,26 @@
+PlanID,MonthlyCost,IncludedMins,IncludedCalls,IncludedIntlMins,PlanDescription
+1,20,200,100,1,Plan 1 includes 200 minutes and 1 international minutes.
+2,27,254,116,2,Plan 2 includes 254 minutes and 2 international minutes.
+3,35,308,133,3,Plan 3 includes 308 minutes and 3 international minutes.
+4,42,362,150,4,Plan 4 includes 362 minutes and 4 international minutes.
+5,50,416,166,5,Plan 5 includes 416 minutes and 5 international minutes.
+6,57,470,183,7,Plan 6 includes 470 minutes and 7 international minutes.
+7,65,525,200,8,Plan 7 includes 525 minutes and 8 international minutes.
+8,72,579,216,9,Plan 8 includes 579 minutes and 9 international minutes.
+9,80,633,233,10,Plan 9 includes 633 minutes and 10 international minutes.
+10,87,687,250,11,Plan 10 includes 687 minutes and 11 international minutes.
+11,95,741,266,13,Plan 11 includes 741 minutes and 13 international minutes.
+12,102,795,283,14,Plan 12 includes 795 minutes and 14 international minutes.
+13,110,850,300,15,Plan 13 includes 850 minutes and 15 international minutes.
+14,117,904,316,16,Plan 14 includes 904 minutes and 16 international minutes.
+15,125,958,333,17,Plan 15 includes 958 minutes and 17 international minutes.
+16,132,1012,350,19,Plan 16 includes 1012 minutes and 19 international minutes.
+17,140,1066,366,20,Plan 17 includes 1066 minutes and 20 international minutes.
+18,147,1120,383,21,Plan 18 includes 1120 minutes and 21 international minutes.
+19,155,1175,400,22,Plan 19 includes 1175 minutes and 22 international minutes.
+20,162,1229,416,23,Plan 20 includes 1229 minutes and 23 international minutes.
+21,170,1283,433,25,Plan 21 includes 1283 minutes and 25 international minutes.
+22,177,1337,450,26,Plan 22 includes 1337 minutes and 26 international minutes.
+23,185,1391,466,27,Plan 23 includes 1391 minutes and 27 international minutes.
+24,192,1445,483,28,Plan 24 includes 1445 minutes and 28 international minutes.
+25,200,1500,500,30,Plan 25 includes 1500 minutes and 30 international minutes.

@@ -1,0 +1,25 @@
+{% extends 'layout.html' %}
+
+{% block title %}Enter Additional Details{% endblock %}
+
+{% block content %}
+
+{% if not_found %}
+<div class="alert alert-warning" role="alert">
+    Phone number not found.
+</div>
+{% endif %}
+
+<form method="post" action="{% url 'additional_details' %}">
+    {% csrf_token %}
+    <div class="form-group">
+        <label for="total_mins">Enter Total Minutes:</label>
+        <input type="number" step="any" class="form-control" id="total_mins" name="total_mins" required>
+    </div>
+    <div class="form-group">
+        <label for="total_charge">Enter Total Charge:</label>
+        <input type="number" step="any" class="form-control" id="total_charge" name="total_charge" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+{% endblock %}
